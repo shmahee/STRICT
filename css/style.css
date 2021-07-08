@@ -1,0 +1,286 @@
+/* FONT LINK HERE */
+
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* FONT LINK END HERE */
+
+
+.container {
+    width: 75%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+/* HEDAER SCETION */
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(0, 182, 182, 0.705);
+}
+
+/* HEDAER END SCETION */
+
+
+/* BANNER PART HERE */
+
+.banner {
+    background: url(../img/banner.png);
+    height: 760px;
+    background-position: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 100pt;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner p {
+    color: white;
+    font-size: 15pt;
+    padding: 17px 0px 40px;
+}
+
+.banner a {
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #15a4fa;
+    border-radius: 8px;
+}
+
+.banner a:hover {
+    background-color: white;
+    color: #15a4fa;
+    border: 0;
+    transition: all linear 0.3s;
+}
+
+/* BANNER PART END HERE */
+
+
+
+/* ABOUT PART HERE */
+
+.about {
+    background-color: #f6f9f9;
+    height: 300px;
+    text-align: center;
+}
+
+.about h3 {
+    color: #000;
+    font-size: 40pt;
+    padding-top: 80px;
+}
+
+.about p {
+    color: #999999;
+    padding: 30px 0px;
+}
+
+.mobile {
+    padding: 70px 10px 55px;
+}
+
+.mobile h5 {
+    padding-top: 10px;
+    font-size: 20pt;
+}
+
+/* ABOUT PART END HERE */
+
+
+/* SERVICE PART HERE */
+.service {
+    text-align: center;
+}
+
+.service p {
+    padding: 10px;
+    font-size: 11pt;
+    color: #999999;
+}
+
+/* SERVICE PART END HERE */
+
+
+/* WORK PART HERE */
+
+.work {
+    background-color: #f6f9f9;
+    height: 800px;
+    text-align: center;
+}
+
+.work h3 {
+    padding-top: 80px;
+    font-size: 35pt;
+}
+
+.work p {
+    padding: 10px;
+    font-size: 11pt;
+    color: #999999;
+}
+
+/* WORK PART END HERE */
+
+
+/* PROTFOLIO PART HERE */
+
+.protfolio{
+    margin-top: 50px;
+}
+
+/* project overlay start */
+
+/* project overlay start */
+
+.pro_overflow {
+    background-color: rgba(44, 173, 247, 0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.pro_overflow a {
+    background-color: #2cacf7;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 5px;
+
+}
+
+.pro_overflow a i {
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 29%;
+    font-size: 16px;
+}
+
+/* project overlay end */
+
+
+/* hover part here */
+
+.prot_hover:hover .pro_overflow {
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+
+/* hover part end here */
+
+.prot_hover {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+
+/* PROTFOLIO PART END HERE */
+
+
+
+
+/* CONTACT HERE */
+
+.contact{
+    background: url(../img/background.png);
+    height: 700px;
+    background-position: center;
+}
+.contact_head {
+    text-align: center;
+}
+.contact_head h3{
+    padding-top: 80px;
+    font-size: 35pt;
+    color:white;
+}
+.contact_head p{
+    padding: 10px;
+    font-size: 11pt;
+    color: #999999;
+    margin-bottom: 60px;
+}
+.input{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    height: 60px;
+    width: 450px;
+    padding-left: 20px;
+}
+#text{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    height: 150px;
+    width: 450px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.contact_head a{
+    border: 1px solid #2cacf7;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+/* CONTACT END HERE */
+
+
+/* footer part here */
+
+.copyright ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+ .copyright .footer a{
+    font-size: 14px;
+    color: grey;
+}
+.copy ul li a i{
+    padding: 10px;
+    color: #2cacf7;
+    font-size: 30px;
+
+}
+
+
+/* footer part end here */

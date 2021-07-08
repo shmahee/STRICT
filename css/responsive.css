@@ -1,0 +1,239 @@
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .container {
+        width: 85%;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .head .navbar .navbar-brand img {
+        height: 22px;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #15a4fa;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: #15a4fa;
+    }
+
+    .banner h1 {
+        font-size: 50pt;
+        padding-top: 140px;
+    }
+
+    .banner img {
+        width: 200px;
+    }
+
+    .banner p {
+        font-size: 9pt;
+        padding: 12px 50px 33px;
+    }
+
+    .banner {
+        height: 550px;
+    }
+
+
+    /* ABOUT PART HERE */
+    .about {
+        height: auto;
+    }
+
+    .about h3 {
+        font-size: 35pt;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    /* ABOUT PART END HERE */
+
+
+    .mobile {
+        padding-bottom: 0;
+    }
+
+
+    /* WORK PART HERE */
+
+    .work {
+        height: auto;
+    }
+
+    /* WORK PART END HERE */
+
+
+    /* CONTACT PART HERE */
+    .input {
+        width: 250px;
+        height: 50px;
+    }
+
+    #text {
+        width: 250px;
+    }
+
+    /* CONTACT PART END HERE */
+
+
+    /* FOOTER PART HERE */
+    .copyright .footer.navbar {
+        justify-content: center;
+    }
+
+    .copyright .footer a {
+        margin: 0;
+    }
+
+    /* FOOTER PART END HERE */
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .head .navbar .navbar-brand img {
+        height: 22px;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #15a4fa;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: #15a4fa;
+    }
+
+    .banner h1 {
+        font-size: 80pt;
+        padding-top: 140px;
+    }
+
+    .banner img {
+        width: 400px;
+    }
+
+    .banner p {
+        font-size: 11pt;
+        padding: 12px 50px 33px;
+    }
+
+    .banner {
+        height: 585px;
+    }
+
+
+    /* ABOUT PART HERE */
+    .about {
+        height: auto;
+    }
+
+    .about h3 {
+        font-size: 35pt;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    /* ABOUT PART END HERE */
+
+
+    .mobile {
+        padding-bottom: 0;
+    }
+
+
+    /* WORK PART HERE */
+
+    .work {
+        height: auto;
+    }
+
+    /* WORK PART END HERE */
+
+
+    /* CONTACT PART HERE */
+    .input {
+        width: 250px;
+        height: 50px;
+    }
+
+    #text {
+        width: 250px;
+    }
+
+    /* CONTACT PART END HERE */
+
+
+    /* FOOTER PART HERE */
+    .copyright .footer.navbar {}
+
+    .copyright .footer a {
+        margin: 0;
+    }
+
+    /* FOOTER PART END HERE */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /* HEADER MENU PART */
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .head .navbar .navbar-brand img {
+        height: 22px;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #15a4fa;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: #15a4fa;
+    }
+
+    /* HEADER MENU END PART */
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    ...
+}
